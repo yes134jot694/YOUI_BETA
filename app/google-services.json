@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "377875017321",
+    "firebase_url": "https://youibeta.firebaseio.com",
+    "project_id": "youibeta",
+    "storage_bucket": "youibeta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377875017321:android:059de179b5aa802383bcf8",
+        "android_client_info": {
+          "package_name": "com.example.youi_beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377875017321-j3ueth93kg295j1dj1h12h57ebaqpt24.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.youi_beta",
+            "certificate_hash": "15e586d1b932d31f312c599ac0727e65d06e248e"
+          }
+        },
+        {
+          "client_id": "377875017321-qk666un89r6qa4dkauuciupei5e2dl74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJCaK1MXmm4q59axoufVXzQxvikwdomg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377875017321-qk666un89r6qa4dkauuciupei5e2dl74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

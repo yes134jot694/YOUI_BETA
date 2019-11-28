@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#E9F8D8"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn3DMap"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#D8EEF1"
+                android:paddingLeft="20dp"
+                android:text="@string/btn_3d_map"
+                android:textColor="#832406"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAddMarker"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#D8EEF1"
+                android:text="顯示\n地標"
+                android:textColor="#832406"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnShowRoute"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#D8EEF1"
+                android:text="顯示路徑方向"
+                android:textColor="#832406"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnHideRoute"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#D8EEF1"
+                android:text="隱藏路徑方向"
+                android:textColor="#832406"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9F8D8"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#EEC2B4"
+                android:textStyle="bold"
+                android:text="回目前位置" />
+
+            <Button
+                android:id="@+id/btn_go"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#F3EBA4"
+                android:textStyle="bold"
+                android:text="前往目的地" />
+
+            <Spinner
+                android:id="@+id/spnMapType"
+                android:layout_width="185dp"
+                android:layout_height="match_parent"
+                android:entries="@array/spn_map_type_list" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayMapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
